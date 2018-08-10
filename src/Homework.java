@@ -37,7 +37,7 @@ public class Homework {
             return;
         }
         if(secondElement > arr.length - 1 || secondElement < 0) {
-            System.out.println("Указанный индекс первого элемента выходит за пределы массива");
+            System.out.println("Указанный индекс второго элемента выходит за пределы массива");
             return;
         }
         if(firstElement == secondElement)
