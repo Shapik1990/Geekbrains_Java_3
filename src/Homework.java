@@ -40,9 +40,8 @@ public class Homework {
             System.out.println("Указанный индекс второго элемента выходит за пределы массива");
             return;
         }
-        if(firstElement == secondElement)
-            return;
-
+        if(firstElement == secondElement){ return; }
+            
         T a = arr[firstElement];
         T b = arr[secondElement];
 
